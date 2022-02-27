@@ -1,0 +1,39 @@
+body{
+
+}
+.container{
+    max-width: 580px;
+	margin-top: 40px;
+	font-family: 'Contrail One', cursive;
+}
+
+blockquote {
+	margin-bottom: 25px;
+	padding: 20px;
+	font-family: 'Caveat', cursive;
+	font-size: 28px;
+	background-color: oldlace;
+	border: 2px solid #000;
+	border-radius: 10px;
+    text-align: center;
+}
+.btn{
+    margin-top: 20px;
+    background-color:gray;
+    color:whitesmoke;
+    width:10vw;
+    height:5vh;
+}
+.quotes p,.quotes h3{
+    height: auto;
+}
+
+@media(max-width:481px){
+    .quotes p,.quotes h3{
+        font-size: 1.2rem;
+    }
+    .container{
+        width:80vw;
+        height:70vh;
+    }
+} 
