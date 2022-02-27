@@ -26,6 +26,7 @@ blockquote {
 }
 .quotes p,.quotes h3{
     height: auto;
+    
 }
 
 @media(max-width:481px){
